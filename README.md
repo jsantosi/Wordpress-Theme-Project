@@ -1,3 +1,5 @@
+#### :star2:#Minhas Criações - Voo livre de ideias :relaxed:
+
 # WordPress Theme Project
 
 Bem-vindo ao repositório **WordPress Theme Project**! Este projeto tem como objetivo transformar um layout HTML em um tema funcional para WordPress.
