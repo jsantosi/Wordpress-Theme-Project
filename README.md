@@ -11,8 +11,10 @@ Este projeto começa com a criação de um site em HTML que será convertido em 
 ## Estrutura do Repositório
 
 Aqui está uma visão geral da estrutura do repositório:
-- **assets/**: Arquivos estáticos (CSS, JavaScript, imagens)
-- **index.html**: Arquivo principal do tema
+- html/
+  - **assets/**: Arquivos estáticos (CSS, JavaScript, imagens)
+  - **index.html**: Arquivo principal do tema
+  - **README.md**: Captura de tela do projeto em html
 - **README.md**: Este arquivo
 
 ## Tecnologias Usadas
