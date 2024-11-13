@@ -360,7 +360,6 @@ p.tile_subtitle {
   font-size: 16px;
   text-align: center;
   transition: all .15s ease-in-out;
-  background: rgba(0, 0, 0, .05);
   box-sizing: border-box;
   color: #fff;
 }
@@ -483,9 +482,10 @@ p.service_icon img {
   opacity: 1;
   height: auto; /* Isso vai expandir o conteúdo para mostrar o texto */
 }
-
+.service:hover img{
+  transform: scale(1.09);
+}
 .service:hover {
-  transform: scale(1.05); /* Efeito de zoom */
   background: rgba(0, 0, 0, 0.2);
 }
 
