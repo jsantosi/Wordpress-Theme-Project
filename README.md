@@ -1,8 +1,14 @@
-#### :star2:#Minhas Criações - Voo livre de ideias :relaxed:
+#### :star2: #Minhas Criações - Voo livre de ideias :relaxed:
 
 # WordPress Theme Project
 
 Bem-vindo ao repositório **WordPress Theme Project**! Este projeto tem como objetivo transformar um layout HTML em um tema funcional para WordPress.
+
+### 🌐 <a href="https://jsantosi.github.io/Wordpress-Theme-Project/html/" target="_blank">Visite a página do projeto em HTML</a> 🌐
+
+> **⚠️ Nota Importante:**  
+> A página que você verá no link acima é **apenas um modelo HTML**. Este modelo servirá como base para o desenvolvimento de um tema WordPress dinâmico e personalizável, com todas as funcionalidades de um tema completo, como menus, widgets e integração com o painel administrativo do WordPress.  
+> Fique atento, o projeto será transformado em um tema WordPress completo futuramente!
 
 ## Descrição do Projeto
 
@@ -11,10 +17,10 @@ Este projeto começa com a criação de um site em HTML que será convertido em 
 ## Estrutura do Repositório
 
 Aqui está uma visão geral da estrutura do repositório:
-- html/
+- **html/**
   - **assets/**: Arquivos estáticos (CSS, JavaScript, imagens)
   - **index.html**: Arquivo principal do tema
-  - **README.md**: Captura de tela do projeto em html
+  - **README.md**: Captura de tela do projeto em HTML
 - **README.md**: Este arquivo
 
 ## Tecnologias Usadas
