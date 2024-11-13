@@ -6,8 +6,10 @@ $cor-primaria: #cb993c;
 $cor-secundaria: #e6bd70;
 $cor-destaque: #005b4c;
 $cor-padrao: #212529;
+$cor-link: #b1d269;
 $branco: #fff;
 
+body{background-color: #11322c;}
 p{
   font-family: "Sen", sans-serif;
   font-size: 16px;
@@ -21,13 +23,24 @@ h4{
 section a {
   text-decoration: none; 
 }
+.btn{
+  border-color: $cor-link;
+  color: $cor-link;
+}
+
+.btn:hover{
+  background-color: $cor-link;
+  border-color: $cor-link;
+  color: #0f2c27;
+  font-weight: 500;
+}
 
 a.btn-primary {
   color: #1c2129;
-  background:$cor-primaria;
+  background:$cor-link;
   border: none;
   font-weight:600;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: 1px 0em 1em rgba(0, 0, 0, 0.1), 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 a.btn-primary:hover {
@@ -53,6 +66,9 @@ header a {
 .txt-pad{
   color:$cor-padrao;
 }
+.text-success-emphasis{
+  color: $cor-link !important;
+}
 h4.txt-pad{
   width: 80%;
   font-weight: 400 !important;
@@ -77,7 +93,7 @@ h4.txt-pad{
 }
 
 #faixa{background-color: $cor-destaque;}
-#faixa2{background-color: #2f4858;}
+#faixa2{background-color: #1d4f54;}
 #faixa3{background: linear-gradient(44deg, #9db2b3, #e2e3db, #d5dcd5, #c7d4cb);}
 
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
@@ -458,10 +474,12 @@ p.service_icon img {
   width: 25%
 }
 .service:hover h3{
+  color: $cor-link;
+}
+.service:hover .service_text p {
   color: $cor-secundaria;
 }
-
-.service:hover .service_text {
+.service:hover .service_text  {
   opacity: 1;
   height: auto; /* Isso vai expandir o conteúdo para mostrar o texto */
 }
